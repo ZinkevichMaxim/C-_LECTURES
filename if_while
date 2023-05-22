@@ -1,0 +1,57 @@
+Синтаксис if.....else
+
+﻿// Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+// a = 5; b = 7 -> max = 7
+// a = 2 b = 10 -> max = 10
+// a = -9 b = -3 -> max = -3
+
+// Console.WriteLine("Введите первое число");
+// int A = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите второе число");
+// int B = int.Parse(Console.ReadLine());
+
+// if (A > B)                                                         - (условия в скобках) нет;
+// {Console.WriteLine("Первое число больше второго, max = " + A);}    - ; перед }
+// else                                                               - нет ;
+// {Console.WriteLine("Второе число больше первого, max = " + B);}    - ; перед }
+
+Несколько if подрят без else:
+
+﻿// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+// 2, 3, 7 -> 7
+// 44 5 78 -> 78
+// 22 3 9 -> 22
+
+// Console.WriteLine("Введите первое число");
+// int A = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите второе число");
+// int B = int.Parse(Console.ReadLine());
+// Console.WriteLine("Введите третье число");
+// int C = int.Parse(Console.ReadLine());
+// int max = 0;
+// if (max < A)
+// {max = A;}
+// if (max < B)
+// {max = B;}
+// if (max < C)
+// {max = C;}
+// Console.WriteLine("max = " + max);
+
+Синтаксис do ... while + if ... else
+
+﻿// Задача 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+// Console.WriteLine("Введите число");
+// int A = int.Parse(Console.ReadLine());
+// int B = 1;
+
+// do                                     - нет ;
+// if (B % 2 == 0)                        - нет ;
+// {
+    // Console.Write(B + ",");            - в конце каждой строки ;
+// B = B + 1;}                            - ; перед }
+// else                                   - нет ;
+// {B = B+1;}                             - ; перед }
+// while (B < A);                         - while в конце do в нвчале - делай пока не ...  
