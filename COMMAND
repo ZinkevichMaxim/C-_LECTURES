@@ -18,6 +18,19 @@ int / double nomber = int / double.Parse(Console.ReadLine()) - позволяе�
 
 string - тип данных строка (string username = Console.ReadLine())
 
+ВАЖНО!! Команда ToLoweк() переводит все символы в прописные
+    // Console.Write("Введите имя пользователя");
+    // string username = Console.ReadLine();
+    // if (username.ToLower() == "Максим")
+    // {
+    // Console.WriteLine("Это же МАКСИМ");
+    // }
+    // else
+    // {
+    //Console.Write("Привет");
+    // Console.Write(username);
+}
+
 bool - логический тип данных False / True
 
 + - плюс
