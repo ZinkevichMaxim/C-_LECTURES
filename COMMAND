@@ -33,3 +33,8 @@ bool - логический тип данных False / True
 
 () - класические скобки, котроые могут менять приоритет операций
 
+new Random().Next(min,max) - генерирует случайные числа от min до max-1
+    // int numberA = new Random().Next(1,10);
+    //int numberB = new Random().Next(1,10);
+    //int result = numberA + numberB;
+    //Console.WriteLine(result);
