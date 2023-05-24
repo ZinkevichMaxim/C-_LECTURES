@@ -16,7 +16,7 @@ if (number > 999)
 
 if (number < 100)
 {
-    Console.WriteLine("Третьей цифры нет");
+    Console.WriteLine("Второй цифры нет");
 }
 
 else 
