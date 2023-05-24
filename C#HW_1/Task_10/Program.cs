@@ -10,9 +10,14 @@
 // int SecondDigit = flagnumber / 10;
 // Console.WriteLine(SecondDigit);
 
+
+
 Console.WriteLine("Введите трехзначное число");
 int number = int.Parse(Console.ReadLine());
-if (number > 999)
+
+void FindSecondDigit(int number)
+
+{if (number > 999)
 {
     Console.WriteLine("Введите трехзначное число");
     }
@@ -27,4 +32,6 @@ int flagnumber = number - FirstDigit*100; // Получили десятки и 
 int SecondDigit = flagnumber / 10;
 Console.WriteLine(SecondDigit);
 }
+}
+
 
