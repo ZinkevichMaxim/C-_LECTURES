@@ -1,0 +1,10 @@
+Функция возвращает значение
+    ВозвращаемйТипДанных(FEX int / double / string) ИмяМетода (арггумент1, аргумент2)
+
+f(x) = x2 + 1
+
+double f(double x)
+{
+    result = x*x + 1;
+    returne = result;
+}
