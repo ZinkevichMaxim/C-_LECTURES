@@ -51,3 +51,7 @@ new Random().Next(min,max) - генерирует случайные числа 
     //int numberB = new Random().Next(1,10);
     //int result = numberA + numberB;
     //Console.WriteLine(result);
+
+    break; - прерви. останавливает цикл при выполнении условия
+
+    
