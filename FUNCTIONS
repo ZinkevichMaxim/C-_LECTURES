@@ -1,4 +1,4 @@
-Функция возвращает значение
+Функция возвращает значение - возвращаемый тип
     ВозвращаемйТипДанных(FEX int / double / string) ИмяМетода (арггумент1, аргумент2)
 
 f(x) = x2 + 1
@@ -7,4 +7,21 @@ double f(double x)
 {
     result = x*x + 1;
     returne = result;
+}
+
+НЕВОЗВРАЩАЕМЫЙ ТИП ФУНКЦИИ
+
+VOID не используется оператор returne
+
+void FillArray(int[] collections)                              // Fill == заполнить
+{
+    int Length = collections.Length;
+    index = 0;
+    while (index < Length)
+    {
+        collection[index] = new Random.Next(1, 10);
+
+        index++;
+        
+    }
 }
