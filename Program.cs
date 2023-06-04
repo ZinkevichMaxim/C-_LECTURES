@@ -1,5 +1,4 @@
-﻿Console.Clear();
-
+﻿
 // int numberA = new Random().Next(1,10);
 // int numberB = new Random().Next(1,10);
 // int result = numberA + numberB;
@@ -17,7 +16,7 @@
 // Console.Write(username );
 // }
 
-﻿// task5 - (семинар1) - Напишите программу, которая на вход принимает одно число (N),
+// task5 - (семинар1) - Напишите программу, которая на вход принимает одно число (N),
 //  а на выходе показывает все целые числа в промежутке от -N до N
 
 // Console.WriteLine("Введите число");
@@ -28,3 +27,4 @@
 // do {Console.Write(z + "/");
     // z = z + 1;}
 // while (z <= x);
+
