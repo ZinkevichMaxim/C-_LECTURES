@@ -1,4 +1,4 @@
-Функция возвращает значение - возвращаемый тип
+Функция возвращает значение - возвращаемый тип (ОБЯЗАТЕЛЬНО команда return)
     ВозвращаемйТипДанных(FEX int / double / string) ИмяМетода (арггумент1, аргумент2)
 
 f(x) = x2 + 1
@@ -9,7 +9,7 @@ double f(double x)
     returne = result;
 }
 
-НЕВОЗВРАЩАЕМЫЙ ТИП ФУНКЦИИ
+НЕВОЗВРАЩАЕМЫЙ ТИП ФУНКЦИИ (void)
 
 VOID не используется оператор returne
 
@@ -25,3 +25,81 @@ void FillArray(int[] collections)                              // Fill == зап
         
     }
 }
+
+НИЧЕГО НЕ ПРИНИМАЮТ, НО ВОЗВРАЩАЮТ 
+FEX new Random().Next(min,max) - генерирует случайные числа от min до max-1
+
+Вид 1 Ничего не возвращают и ничего не ПРИНИМАЮТ
+
+void writenameavtor()  в скобках нет аргументов т.к ничего не принимает
+{
+    Console.WriteLine("Автор: МВЗ");
+}
+
+Вызвать метод:
+
+writenameavtor();   ВАЖНО!! СКОБКИ ОБЯЗАТЕЛЬНО!
+
+ВИД 2.
+НИЧЕГО НЕ ВОЗВРАЩАЮТ, НО МОГУТ ПРИНИМАТЬ АРГУМЕНТЫ
+
+void Metod2(string msg)
+{
+    Console.WriteLine(msg);
+}
+
+ВЫЗОВ
+
+Metod2("Текст сообщения");
+
+Именованные аргументы
+
+void Metod21(string msg, int count)
+{
+    int i = 0
+    while(i < count)
+    {
+        Console.WriteLine(msg);
+        i++                          //инкремент (уменьшение - тэккремент)
+    }
+
+}
+
+ВЫЗОВ
+Metod21("Tekst", 5);
+
+Как вариант:
+Metod21(msg: "Tekst", count: 5);     // Но текст все равно в кавычках, разделитель запятая. При использовании именнованных аргументов необязательно писать по порядку
+
+Metod21(count: 5, msg: "Tekst");
+
+ВИД 3.
+ЧТО*ТО ВОЗВРАЩАЮТ, НО НИЧЕГО НЕ ПРИНИМАЮТ
+
+int Metod3()  Поскольку возвращает, надо указать тип данных, котрые мы ждем (int)
+{
+    return DateTime.Now.Year;                                  return ОБЯЗАТЕЛЬН т.к. возвращаеииый тип
+}
+ВЫЗОВ
+int year = Metod3();
+Console.WriteLine(year);
+
+
+ВИД 4.
+ЧТО-ТО ПРИНИМАЮТ И ЧТО-ТО ВОЗВРАЩАЮТ
+
+string Metod4(int count, string Text)           char = обуглить
+{
+    i = 0;
+    string result = String.Empty
+    while(i < count)
+    {
+        result = result + Text;
+        i++
+    }
+    return result;
+}
+
+ВЫЗОВ
+syring res = Metod4(10, qwer);
+Console.WriteLine(res)
