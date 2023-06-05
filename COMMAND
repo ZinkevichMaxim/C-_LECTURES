@@ -58,5 +58,13 @@ new Random().Next(min,max) - генерирует случайные числа 
 
     String.Empty = string"" = пустая строка
 
+Convert.ToDouble Преобразует заданное строковое представление числа в эквивалентное число с плавающей запятой двойной точности.
 
-    
+arr[i] = Convert.ToDouble(new Random().Next(minValue, maxValue)) / 100; Получается массив из целых чисел/100 2.25, 6.83 и тд
+
+Класс Convert представляет нам возможность преобразовывать одни базовые типы в другие. 
+Класс Convert поддерживает преобразование следующих типов данных: 
+Boolean, Byte, SByte, Int16, Int32, Int64, UInt16, Char, UInt64, UInt32, Single, String, DateTime, Double, Decimal. 
+Кроме того, класс Convert включает методы для поддержки других типов преобразований.
+
+ https://learn.microsoft.com/ru-ru/dotnet/api/system.convert?redirectedfrom=MSDN&view=net-5.0   
