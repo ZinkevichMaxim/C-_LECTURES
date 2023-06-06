@@ -1,3 +1,10 @@
+1.Синтаксис if.....else
+2. Несколько if подрят без else:
+3. Синтаксис do ... while + внутри if ... else 
+4. Синтаксис if и while последовательно
+5. ЦИКЛ foreach ДЛЯ РАБОТЫ С МАССИВОМ. МЕТОД ВОЗВРАЩАЮЩИЙ НЕСКОЛЬКО ЧИСЕ В ВИДЕ МАССИВА
+
+
 Синтаксис if.....else
 
 ﻿// Задача 2: Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
@@ -69,3 +76,35 @@
 // do {Console.Write(z + "/");
     // z = z + 1;}
     // while (z <= x);
+
+    ЦИКЛ foreach ДЛЯ РАБОТЫ С МАССИВОМ. МЕТОД ВОЗВРАЩАЮЩИЙ НЕСКОЛЬКО ЧИСЕ В ВИДЕ МАССИВА
+
+// int[] FindSum(int[] arr)
+// {
+// int positiveSum = 0;
+// int negativeSum = 0;
+// int[] ress = new int[2];              // через создание нового массива
+// foreach(int el in arr)               //el - переменная, можно назвать как угодно  - это элемент цикла, число в нашем случае
+// {
+//     if (el > 0)
+//     {
+//         positiveSum = positiveSum + el; /// positiveSum += el
+//     }
+//     else
+//     {
+//         negativeSum += el;
+//     }
+
+// }
+// ress[0] = positiveSum;       //формируем массив В return НЕЛЬЗЯ ЗАПИСАТЬ НЕСКОЛЬКО ЧИСЕЛ
+// ress[1] = negativeSum;
+// return ress;                  // Вернуть можно только масив из нескольких чисел
+
+// }
+// int[] array = GetArray(12, -9, 9);
+// PrintArray(array);
+// int[] ress = FindSum(array);
+// Console.WriteLine();
+// PrintArray(ress);
+// Console.WriteLine();
+// Console.WriteLine($"Сумма положительных чисел равна {ress[0]} Cумма отрицательных чисел равна {ress[1]}");
