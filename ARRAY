@@ -166,3 +166,20 @@
 // PrintArray(ress);
 // Console.WriteLine();
 // Console.WriteLine($"Сумма положительных чисел равна {ress[0]} Cумма отрицательных чисел равна {ress[1]}");
+
+
+Метод int.TryParse (string s, out int result) //проверяет, можно ли получить число из строки.
+
+//  Если это возможно - возвращает true и полученное число out -параметром, иначе возвращает false 
+//  результатом и default (int) out -параметром.
+// int Prompt (string msg)
+// {
+//     Console.Write(msg);
+//     string value = Console.ReadLine();
+//     if ((int.TryParse(value, out int val)) == false)
+//     {
+//         Console.WriteLine("Это не число ");
+//     }
+//     return val;
+// }
+
