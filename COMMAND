@@ -68,3 +68,18 @@ Boolean, Byte, SByte, Int16, Int32, Int64, UInt16, Char, UInt64, UInt32, Single,
 Кроме того, класс Convert включает методы для поддержки других типов преобразований.
 
  https://learn.microsoft.com/ru-ru/dotnet/api/system.convert?redirectedfrom=MSDN&view=net-5.0   
+
+
+ Метод int.TryParse (string s, out int result) //проверяет, можно ли получить число из строки.
+//  Если это возможно - возвращает true и полученное число out -параметром, иначе возвращает false 
+//  результатом и default (int) out -параметром.
+// int Prompt (string msg)
+// {
+//     Console.Write(msg);
+//     string value = Console.ReadLine();
+//     if ((int.TryParse(value, out int val)) == false)
+//     {
+//         Console.WriteLine("Это не число ");
+//     }
+//     return val;
+// }
