@@ -7,6 +7,15 @@
 7. ЦИКЛ foreach ДЛЯ РАБОТЫ С МАССИВОМ. МЕТОД ВОЗВРАЩАЮЩИЙ НЕСКОЛЬКО ЧИСЕ В ВИДЕ МАССИВА
 8. Метод int.TryParse (string s, out int result) //проверяет, можно ли получить число из строки.
 
+ОБЪЯВЛЕНИЕ И ИНИЦИАЛИЗАЦИЯ ПУСТОГО МАССИВА
+
+int[] array = new int[] {}
+int [] array = new int[0]
+int[] array = Array.Empty<int>()
+int [] array = {}
+int[] array = Enumerable.Empty<int>().ToArray()
+int [] array = Enumerable.Repeat(0,0).ToArray()
+
 
 
 ТипДанных[] имя = {Знаячение1, Значение2, Значение3}  // имя с маленькой буквы
