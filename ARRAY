@@ -194,3 +194,19 @@ int [] array = Enumerable.Repeat(0,0).ToArray()
 //     return val;
 // }
 
+Среднее арифметическое столбцов
+
+// double[] GetArray2(int[,] array)
+// {
+//     double[] result = new double[array.GetLength(1)];   array.GetLength(0)  - количество строк в двумерном массиве
+//     for(int j = 0; j < array.GetLength(1); j++)         array.GetLength(1)  - количество столбцов в двумерном массиве
+//     {
+//         double sum = 0;
+//         for(int i = 0; i < array.GetLength(0); i++)
+//         {
+//             sum = sum + array[i,j];
+//         }
+//         result[j] = Math.Round(sum / array.GetLength(0), 2);    Math.Round округлеение вещественных чисел. В скобках после запятой до скольки чисел (, 2 - до сотых)
+//     }
+//     return result;
+// }
