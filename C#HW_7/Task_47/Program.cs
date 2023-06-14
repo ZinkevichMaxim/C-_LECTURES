@@ -31,7 +31,7 @@ double[,] GetArray(int m, int n, int minValue, int maxValue)
     {
         for(int j = 0; j < n; j++)
         {
-            result [i,j] = Convert.ToDouble(new Random().Next(minValue, maxValue)) / 100;
+            result [i,j] = Convert.ToDouble(new Random().Next(minValue, maxValue + 1)) / 100;
         }
     }
     return result;
